@@ -1,0 +1,102 @@
+body {
+    font-size: 20px;
+    background-color: white;
+}
+
+header {
+    background-color: #011633;
+    width: 100%;
+}
+
+header img {
+    width: 7em;
+}
+
+/* De navigatie bar */
+
+header ul {
+    padding: 0;
+    background-color: #011633;
+}
+
+header li {
+/*    display: inline-block;8 
+    float: left; 
+    text-align: center; */
+}
+
+header li a {
+    display: block;
+    color: white;
+    padding: 15px;
+}
+
+/* verander de link kleur */
+
+header li:hover {
+    background-color: #ffed00;
+}
+
+
+article {
+    width: auto;
+}
+
+/*
+article:hover {
+    transform: skew(30deg);
+    filter: hue-rotate(360deg);
+} 
+*/
+
+/* img {
+    width: 20em;
+    width: calc(100% + 2em);
+    border: 10px solid lightblue;
+    margin-left: -1em;
+    margin-top: -1em;
+    transition: 1s;
+}
+*/
+
+section {
+    width: auto;
+    border: 3px solid #011633;
+    padding: 1em;
+    transition: 10s;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+section img {
+    width: 10em;
+}
+
+
+fieldset {
+    display: block;
+    margin: 15px 5px 15px 5px;
+    padding: 10px;
+}
+
+
+select {
+    border: solid black;
+}
+
+/* opmaak van de footer */
+
+footer {
+        display: block;
+    background-color: #011633;
+    position: relative;
+    width: 100%;
+    ;
+}
+
+footer p {
+        display: block;
+    color: white;
+    padding: 15px;
+}
+
