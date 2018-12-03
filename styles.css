@@ -72,6 +72,7 @@ section img {
     width: 10em;
 }
 
+/* formulieren */
 
 fieldset {
     display: block;
@@ -79,9 +80,22 @@ fieldset {
     padding: 10px;
 }
 
-
 select {
     border: solid black;
+}
+
+form {
+    display: block;
+    padding: 15px 0px 15px 0px;
+}
+
+label {
+    display: block;
+    padding: 15px 0px 15px 0px;
+}
+
+input {
+    border: solid #011633;
 }
 
 /* opmaak van de footer */
@@ -89,7 +103,6 @@ select {
 footer {
         display: block;
     background-color: #011633;
-    position: relative;
     width: 100%;
     ;
 }
