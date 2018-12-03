@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-   <meta name="author" content="Neanke Veenstra">
-   <meta name="studentennummer" content="500776199">
+    <!-- meta author-->
+    <meta name="author" content="Neanke Veenstra">
+    <meta name="studentennummer" content="500776199">
     <meta charset="UTF-8">
     <!-- meta viewport linken-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,9 @@
 
 <body>
     <header>
-        <img src="images/logo.dms" alt="logo" />
+        <a href="index.html"><img src="images/logo.dms" alt="logo" /></a>
         <ul>
-            <li><a href="">Favorieten</a></li>
+            <li><a href="favorieten.html">Favorieten</a></li>
             <li><a href="mijneurostar.html">Mijn Eurostar</a></li>
         </ul>
     </header>
@@ -24,7 +25,7 @@
 
     <main>
         <article>
-         <h1>Welkom Lisa, ontdek nu 99 verhalen voor onderweg!</h1>
+            <h1>Welkom Lisa, ontdek nu 99 verhalen voor onderweg!</h1>
             <section>
                 <h2>Verhaal van de dag</h2>
                 <h3>Kinderboek</h3>
@@ -35,7 +36,7 @@
             </section>
             <section>
                 <h2>99 Verhalen</h2>
-                 <h3>Filter op..</h3>
+                <h3>Filter op..</h3>
                 <fieldset>
                     <legend>Genre</legend>
                     <select name="Genre">          
@@ -44,7 +45,7 @@
   <option value="Romantisch">Romantisch</option>
   <option value="Comedy">Comedy</option>
                     </select> </fieldset>
-                    <fieldset>
+                <fieldset>
                     <legend>Duur</legend>
                     <form>
                         <input type="radio" name="duur" value="5 minuten" checked> 5 minuten<br>
@@ -53,14 +54,23 @@
                     </form>
                 </fieldset>
 
-  <h3>Sorteren op..</h3>
+                <h3>Sorteren op..</h3>
                 <fieldset>
-                    <legend>Alfabetisch</legend>
-                    <select name="Chronologisch">          
+                    <legend>Volgorde</legend>
+                    <select name="volgorde">          
   <option value="Nummers">1 - 99</option>
   <option value="Nummers">99 - 1</option>
   <option value="Letters">A - Z</option>
   <option value="Letters">Z - A</option>
+</select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Populariteit</legend>
+                    <select name="populariteit">          
+  <option value="Nummers">Meest gelezen</option>
+  <option value="Nummers">Nieuwste</option>
+  <option value="Letters">Best beoordeelt</option>
 </select>
                 </fieldset>
                 <h3>Kinderboek</h3>
@@ -74,7 +84,7 @@
                 <p>&#9733;</p>
             </section>
             <section>
-                <h2>Verder lezen voor Neanke</h2>
+                <h2>Verder lezen voor Lisa</h2>
                 <h3>Breaking</h3>
                 <img src="images/breaking.jpg" alt="Breaking">
                 <p>&#9733;</p>
