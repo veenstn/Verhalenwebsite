@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta author-->
+    <meta name="author" content="Neanke Veenstra">
+    <meta name="studentennummer" content="500776199">
+    <meta charset="UTF-8">
+    <!-- meta viewport linken-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    stylesheet linken-->
+    <title>Verhalenwebsite</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.dms" alt="logo" /></a>
+        <ul>
+            <li><a href="favorieten.html">Favorieten</a></li>
+            <li><a href="mijneurostar.html">Mijn Eurostar</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <form>
+                Voornaam:
+                <input type="text" placeholder="Lisa" name="firstname" required>
+            </form>
+            <form>
+                Achternaam:
+                <input type="text" placeholder="Ananas" name="lastname" required>
+            </form>
+            <form>
+                Leeftijd:
+                <input type="text" placeholder="30" name="age" required>
+            </form>
+            <form>
+                Woonplaats:
+                <input type="text" placeholder="Amsterdam" name="place" required>
+            </form>
+            <label> Postcode: <input type="text" placeholder="1033SE" name="postcode" required maxlength="6" pattern="[1-9][0-9]{3}?(?!sa|sd|ss)[a-z]{2}" > </label>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2018 Verhalenwebsite door Neanke Veenstra</p>
+    </footer>
+</body>
+</html>
